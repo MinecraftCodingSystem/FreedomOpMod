@@ -10,7 +10,7 @@ import java.io.*;
 
 public class FOM_Util
 {
-    protected Freedomopmod plugin;
+    protected FreedomOpMod plugin;
     protected Server server = Bukkit.getServer();
     private static final List<String> Developers = Arrays.asList("wild1145", "DarthSalamon", "Paldiu");
     
@@ -76,7 +76,7 @@ public class FOM_Util
         }
         else
         {
-            sender.sendMessage(plugin.NOT_FROM_CONSOLE);
+            sender.sendMessage(FreedomOpMod.notFromConsole);
         }
     }
     
