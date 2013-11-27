@@ -7,7 +7,7 @@ import org.bukkit.Server;
 
 import java.util.logging.Logger;
 
-public class Freedomopmod extends JavaPlugin
+public class FreedomOpMod extends JavaPlugin
 {
   public static final Logger log = Logger.getLogger("minecraft-server");
   
@@ -19,6 +19,9 @@ public class Freedomopmod extends JavaPlugin
   public static String pluginAuthors;
   //
   public static final String noPermission = ChatColor.RED + "You don't have permission!";
+  public static final String notFromConsole = "This command may not be used from the console.";
+  public static final String playerIsOpped = ChatColor.YELLOW + "You are now OP!";
+  public static final String playerIsNotOpped = ChatColor.YELLOW + "You are no longer OP!";
   //
   
   @Override
