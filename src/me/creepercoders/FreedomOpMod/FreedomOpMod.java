@@ -4,12 +4,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Server;
+import org.bukkit.Bukkit;
 
 import java.util.logging.Logger;
 
 public class FreedomOpMod extends JavaPlugin
 {
-  public static final Logger log = Logger.getLogger("minecraft-server");
+  public static final Logger log = Bukkit.getLogger();
   
   //
   public static Main plugin = null;
