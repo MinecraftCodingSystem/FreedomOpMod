@@ -12,7 +12,7 @@ public class FOM_Util
 {
     protected FreedomOpMod plugin;
     protected Server server = Bukkit.getServer();
-    private static final List<String> Developers = Arrays.asList("wild1145", "DarthSalamon", "Paldiu");
+    private static final List<String> Developers = Arrays.asList("wild1145", "DarthSalamon", "Paldiu", "buildcarter8");
     
     public static String 
     
