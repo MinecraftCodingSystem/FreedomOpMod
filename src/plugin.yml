@@ -1,5 +1,5 @@
 name: FreedomOpMod
 description: A plugin for the FreedomOP server.
-version: 0.0.1-Mid_Dev
+version: 0.0.2-Mid_Dev
 main: me.creepercoders.FreedomOpMod.Freedomopmod;
 authors: [Paldiu, wild1145, DarthSalamon, buildcarter8]
