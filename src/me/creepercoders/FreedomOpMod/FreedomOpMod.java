@@ -21,8 +21,8 @@ public class FreedomOpMod extends JavaPlugin
   //
   public static final String noPermission = ChatColor.RED + "You don't have permission!";
   public static final String notFromConsole = "This command may not be used from the console.";
-  public static final String playerIsOpped = ChatColor.YELLOW + "You are now OP!";
-  public static final String playerIsNotOpped = ChatColor.YELLOW + "You are no longer OP!";
+  public static final String playerIsOpped = ChatColor.YELLOW + "You are now op!";
+  public static final String playerIsNotOpped = ChatColor.YELLOW + "You are no longer op!";
   //
   
   @Override
@@ -31,9 +31,8 @@ public class FreedomOpMod extends JavaPlugin
     this.plugin = this;
     this.pluginName = plugin.getDescription().getName();
     this.pluginVersion = plugin.getDescription().getVersion();
-    this.pluginAuthors = plugin.getDescription().getAuthors();
     
-    log.info(pluginName + " v" + pluginVersion + " by [" + pluginAuthors + "] has been enabled!");
+    log.info(pluginName + " v" + pluginVersion + " by buildcarter8,Paldiu,wild1145 and darthsalamon has been enabled!");
   }
   
   @Override
