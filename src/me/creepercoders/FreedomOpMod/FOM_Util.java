@@ -25,7 +25,7 @@ public class FOM_Util
     {
         for (Player p : server.getOnlinePlayers())
         {
-            p.sendMessage((color == null ? "" : color) + message);
+            pp.sendMessage((color == null ? "" : color) + message);
         }
     }
     
